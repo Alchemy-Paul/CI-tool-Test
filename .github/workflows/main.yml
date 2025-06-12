@@ -20,4 +20,4 @@ jobs:
           health-check-timeout: 10
           health-check-interval: 5
           build-timeout: 300
-          hot-fix: false
+          hot-fix: true
