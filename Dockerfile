@@ -33,6 +33,6 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 COPY main.py .
 
 USER appuser
-EXPOSE 9000
+EXPOSE 8080
 
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
