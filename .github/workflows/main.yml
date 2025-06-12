@@ -15,7 +15,7 @@ jobs:
         uses: h4nz0x/poDTest@v1
         with:
           dockerfile-path: ./Dockerfile
-          port: 9000
+          port: 8080
           health-check-path: /health
           health-check-timeout: 10
           health-check-interval: 5
