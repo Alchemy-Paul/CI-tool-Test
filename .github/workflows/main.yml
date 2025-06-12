@@ -14,7 +14,7 @@ jobs:
       - name: Run poDTest
         uses: h4nz0x/poDTest@v1
         with:
-          dockerfile-path: ./deployments
+          dockerfile-path: Dockerfile
           port: 9000
           health-check-path: /health
           health-check-timeout: 10
